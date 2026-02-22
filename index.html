@@ -1,52 +1,36 @@
-:root { --max: 980px; }
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Best Sydney Food</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  line-height: 1.5;
-}
-header {
-  border-bottom: 1px solid #e5e5e5;
-  background: #fff;
-  position: sticky;
-  top: 0;
-}
-.container { max-width: var(--max); margin: 0 auto; padding: 16px; }
-.nav {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.brand { font-weight: 800; letter-spacing: 0.2px; }
-.links { display: flex; gap: 10px; flex-wrap: wrap; }
-.links a {
-  text-decoration: none;
-  padding: 8px 10px;
-  border-radius: 8px;
-  color: #111;
-}
-.links a.active { background: #111; color: #fff; }
-.hero {
-  padding: 48px 0;
-}
-.hero h1 { margin: 0 0 10px; font-size: 40px; }
-.hero p { margin: 0; max-width: 60ch; color: #333; }
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
-.card {
-  border: 1px solid #e5e5e5;
-  border-radius: 12px;
-  padding: 14px;
-  background: #fff;
-}
-.card h3 { margin: 0 0 6px; }
-.meta { color: #555; font-size: 14px; }
-footer { border-top: 1px solid #e5e5e5; margin-top: 28px; color: #666; }
-.badge { display: inline-block; padding: 2px 8px; border: 1px solid #ddd; border-radius: 999px; font-size: 12px; color: #333; }
+<header>
+  <div class="container nav">
+    <div class="brand">Best Sydney Food</div>
+    <nav class="links">
+      <a class="active" href="index.html">Home</a>
+      <a href="restaurants.html">Restaurants/Cafes</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="locations.html">Locations Visited</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Find the best food in Sydney</h1>
+    <p>Restaurants. Cafes. Recipes. Locations visited.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 Best Sydney Food
+  </div>
+</footer>
+
+</body>
+</html> }
