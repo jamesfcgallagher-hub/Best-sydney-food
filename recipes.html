@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recipes | Best Sydney Food</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Best Sydney Food</div>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="restaurants.html">Restaurants/Cafes</a>
+        <a class="active" href="recipes.html">Recipes</a>
+        <a href="locations.html">Locations Visited</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Recipes</h1>
+    <p class="meta">Simple, repeatable recipes. Add more cards as you go.</p>
+
+    <div class="grid" style="margin-top:12px;">
+      <article class="card">
+        <h3>Example: Weeknight Chicken Bowl</h3>
+        <div class="meta">Time: 25 min • Serves: 2</div>
+        <p><strong>Ingredients:</strong> chicken, rice, cucumber, yoghurt, lemon, herbs…</p>
+        <p><strong>Steps:</strong> 1) Cook rice 2) Pan-fry chicken 3) Mix sauce 4) Assemble.</p>
+      </article>
+
+      <article class="card">
+        <h3>Example: Crispy Potatoes</h3>
+        <div class="meta">Time: 45 min • Serves: 4</div>
+        <p><strong>Ingredients:</strong> potatoes, oil, salt, garlic, rosemary…</p>
+        <p><strong>Steps:</strong> Parboil → rough up → roast hot → finish with salt.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer><div class="container">© <span id="y"></span> Best Sydney Food</div></footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

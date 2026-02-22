@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Restaurants & Cafes | Best Sydney Food</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Best Sydney Food</div>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a class="active" href="restaurants.html">Restaurants/Cafes</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="locations.html">Locations Visited</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Restaurants & Cafes</h1>
+    <p class="meta">Add entries by duplicating a card and editing the content.</p>
+
+    <div class="grid" style="margin-top:12px;">
+      <article class="card">
+        <h3>Example: Cafe Name</h3>
+        <div class="meta">Suburb • Cuisine • $ / $$ / $$$</div>
+        <p>Quick summary: what to order, what to avoid, and why it’s worth it.</p>
+        <p class="meta">Rating: 8/10 • Visited: 2026-02-22</p>
+      </article>
+
+      <article class="card">
+        <h3>Example: Restaurant Name</h3>
+        <div class="meta">Suburb • Cuisine • $$</div>
+        <p>Best dish: ___ • Service: ___ • Notes: ___</p>
+        <p class="meta">Rating: 7/10 • Visited: 2026-02-10</p>
+      </article>
+    </div>
+  </main>
+
+  <footer><div class="container">© <span id="y"></span> Best Sydney Food</div></footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

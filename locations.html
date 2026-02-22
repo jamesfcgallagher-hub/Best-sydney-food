@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Locations Visited | Best Sydney Food</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Best Sydney Food</div>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="restaurants.html">Restaurants/Cafes</a>
+        <a href="recipes.html">Recipes</a>
+        <a class="active" href="locations.html">Locations Visited</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Locations Visited</h1>
+    <p class="meta">Log suburbs/areas + quick notes. Later we can add a map.</p>
+
+    <div class="grid" style="margin-top:12px;">
+      <article class="card">
+        <h3>Newtown</h3>
+        <div class="meta">Visited: 2026-02-20</div>
+        <p>Notes: Great casual eats, busy weekends, best coffee on King St.</p>
+      </article>
+
+      <article class="card">
+        <h3>Surry Hills</h3>
+        <div class="meta">Visited: 2026-02-15</div>
+        <p>Notes: Brunch spots, bakeries, good mid-range dining.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer><div class="container">© <span id="y"></span> Best Sydney Food</div></footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
