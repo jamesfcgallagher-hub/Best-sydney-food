@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Easy Recipes Inspired by Sydney Eats | Best Sydney Food</title>
+  <meta name="description" content="Simple, repeatable recipes inspired by Sydney restaurants and cafes. Easy meals, cooking tips, and favourites worth repeating.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Best <span>Sydney</span> Food</a>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="restaurants.html">Restaurants</a>
+      <a class="active" href="recipes.html">Recipes</a>
+      <a href="locations.html">Locations</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="eyebrow">Recipes</div>
+  <h1>Cook it at home</h1>
+  <p>Simple, repeatable recipes inspired by Sydney's best dishes. Worth making more than once.</p>
+</div>
+
+<div class="section">
+  <div class="section-label">All recipes</div>
+
+  <div class="grid">
+
+    <article class="recipe-card">
+      <h3>Weeknight Chicken Bowl</h3>
+      <div class="recipe-meta">
+        <span>⏱ 25 min</span>
+        <span>👤 Serves 2</span>
+      </div>
+      <div class="recipe-section-label">Ingredients</div>
+      <p class="ingredients">Chicken thighs, rice, cucumber, Greek yoghurt, lemon, fresh herbs (mint, parsley), olive oil, salt.</p>
+      <div class="recipe-section-label">Method</div>
+      <p class="steps">1) Cook rice. 2) Pan-fry seasoned chicken until golden. 3) Whisk yoghurt with lemon and herbs. 4) Slice chicken, assemble over rice, drizzle sauce.</p>
+    </article>
+
+    <article class="recipe-card">
+      <h3>Crispy Roast Potatoes</h3>
+      <div class="recipe-meta">
+        <span>⏱ 45 min</span>
+        <span>👤 Serves 4</span>
+      </div>
+      <div class="recipe-section-label">Ingredients</div>
+      <p class="ingredients">Floury potatoes (Sebago work great), neutral oil, flaky salt, garlic cloves, fresh rosemary.</p>
+      <div class="recipe-section-label">Method</div>
+      <p class="steps">1) Parboil chopped potatoes until edges soften. 2) Drain, shake in pot to rough up the edges. 3) Roast in very hot oil at 220°C for 35 min, turning once. 4) Finish with salt and rosemary.</p>
+    </article>
+
+    <!-- Add more recipe cards below by duplicating an article block above -->
+
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <a class="brand" href="index.html">Best <span>Sydney</span> Food</a>
+    <p>© <span id="y"></span> Best Sydney Food</p>
+  </div>
+</footer>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Best Restaurants & Cafes in Sydney | Reviews & Recipes</title>
+  <meta name="description" content="Discover the best restaurants and cafes in Sydney with honest reviews, suburb guides, simple recipes, and locations visited. Updated regularly.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Best <span>Sydney</span> Food</a>
+    <nav class="links">
+      <a class="active" href="index.html">Home</a>
+      <a href="restaurants.html">Restaurants</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="locations.html">Locations</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-eyebrow">Sydney's food scene, documented</div>
+  <h1>Eat well.<br><em>Every time.</em></h1>
+  <p class="hero-sub">Honest reviews, home recipes, and suburb guides — built by someone who actually lives here and eats out too much.</p>
+</div>
+
+<div class="section">
+  <div class="stats-row">
+    <div class="stat">
+      <span class="stat-num">1</span>
+      <div class="stat-label">Restaurant reviewed</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num">2</span>
+      <div class="stat-label">Suburbs visited</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num">2</span>
+      <div class="stat-label">Recipes posted</div>
+    </div>
+  </div>
+
+  <div class="home-grid">
+    <a class="feature-card" href="restaurants.html">
+      <div class="fc-label">Restaurants & Cafes</div>
+      <h2>Where to eat in Sydney</h2>
+      <p>Suburb-by-suburb breakdowns. What to order, what to skip, and what it'll cost you.</p>
+      <div class="fc-arrow">Browse reviews →</div>
+    </a>
+    <a class="feature-card" href="locations.html">
+      <div class="fc-label">Locations</div>
+      <h2>Suburbs explored</h2>
+      <p>Every area visited, with notes on the vibe, food scene, and what's worth your time.</p>
+      <div class="fc-arrow">See map →</div>
+    </a>
+  </div>
+
+  <div class="home-grid" style="grid-template-columns: 1fr 2fr;">
+    <a class="feature-card" href="recipes.html">
+      <div class="fc-label">Recipes</div>
+      <h2>Cook it at home</h2>
+      <p>Inspired by Sydney's best dishes. Simple, repeatable, worth making twice.</p>
+      <div class="fc-arrow">See recipes →</div>
+    </a>
+    <div class="feature-card" style="cursor:default;">
+      <div class="fc-label">Latest Review</div>
+      <h2>Dragon Hotpot, Haymarket</h2>
+      <p>Sichuan-style Malatang done right. The dry mala is addictive, the wait is real, and the vibe around Chinese New Year is something else entirely.</p>
+      <div style="display:flex;align-items:center;gap:12px;margin-top:20px;">
+        <div class="rating">7<span>/10</span></div>
+        <span class="price">$$</span>
+        <span style="font-size:13px;color:var(--muted);">Visited Feb 2026</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <a class="brand" href="index.html">Best <span>Sydney</span> Food</a>
+    <p>© <span id="y"></span> Best Sydney Food</p>
+  </div>
+</footer>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
